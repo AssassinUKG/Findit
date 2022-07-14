@@ -38,7 +38,7 @@ func main() {
 		return
 	}
 	//banner
-	color.Cyan("%s %s", "ʕ◕ᴥ◕ ʔ", color.BlueString("Findit"))
+	color.Cyan("%s %s", "ʕ◕ᴥ◕ ʔ", color.Cyan("Findit"))
 	fmt.Println("Created by: Richard Jones")
 	color.Yellow("Searching for canary value: %s \r\n", color.GreenString(searchParam))
 
