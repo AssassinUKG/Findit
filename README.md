@@ -19,9 +19,9 @@ cat URLsFile.txt | findit -c "alert(0)"
 
 ## Screenshot
 
-![image](https://user-images.githubusercontent.com/5285547/178971597-a6cf6545-dc6b-45e9-b64a-104e902ca1e2.png)
+![image](https://user-images.githubusercontent.com/5285547/178983196-1aa64236-4541-4d93-9b8f-2465394d88da.png)
 
-
+---
 ## Example usages
 
 XSS 
