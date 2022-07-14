@@ -16,3 +16,7 @@ go install github.com/AssassinUKG/findit@latest
 ```
 cat URLFile.txt | findit -c "alert(0)"
 ```
+
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/5285547/178971597-a6cf6545-dc6b-45e9-b64a-104e902ca1e2.png)
