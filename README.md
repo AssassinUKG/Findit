@@ -14,7 +14,7 @@ go install github.com/AssassinUKG/findit@latest
 ## Usage
 
 ```
-cat URLFile.txt | findit -c "alert(0)"
+cat URLsFile.txt | findit -c "alert(0)"
 ```
 
 ## Screenshot
